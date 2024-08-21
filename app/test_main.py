@@ -3,7 +3,7 @@
 # a. [pip install pytest]
 # b. [pytest --disable-warnings]  ---> will run the test and return pass or fail
 
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.testclient import TestClient
 
 # Because this file is in the same package, you can use relative imports to import the object app from the main module (main.py)
